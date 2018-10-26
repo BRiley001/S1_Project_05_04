@@ -25,7 +25,7 @@ header img {
     width: 100%;
 }
 
-section {
+section#sec1 {
     width: 100%;
     height: 70px;
     background-color: blue;
@@ -116,34 +116,119 @@ h1 {
     text-align: center;
 }
 
+
+
 article#story1 {
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(201, 198, 198)
+    height: 300px;
+    width: 70%;
+    float: left;
+    overflow: auto;
+    padding-right: 2%;
+    background-color: ivory;
+    -moz-box-sizing: border-box;
+}
+
+img#blake {
+    display: inline;
+    margin-right: 0%;
+    float: left;
+    width: 15%;
+}
+
+p {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    margin-top: 0%;
+
 }
 
 article#story2 {
-    margin-left: 2%;
-    display: block;
-    width: 27%;
+    height: 300px;
+    width: 28%;
     float: left;
-    padding-right: 7.5%;
-    background-color: rgb(201, 198, 198);
+    overflow: auto;
+    background-color: ivory;
+    -moz-box-sizing: border-box;
 }
 
+
+
 article#story3 {
-    display: block;
-    width: 27%;
+    height: 300px;
+    width: 70%;
     float: left;
-    background-color: rgb(201, 198, 198);
+    overflow: auto;
+    background-color: ivory;
+    padding-right: 2%;
+    -moz-box-sizing: border-box;
 }
 
 article#story4 {
+    height: 300px;
+    width: 28%;
+    float: left;
+    overflow: auto;
+    background-color: ivory;
+    -moz-box-sizing: border-box;
+}
+
+section#lastsection {
+    background-color: blue;
+    height: 150px;
+    clear: both;
+}
+
+ul#lastlist {
+    width: 90%;
+
+}
+
+ul#lastlist2 {
+    width: 90%;
+
+}
+
+ul#lastlist li {
     display: block;
-    width: 27%;
-    float: right;
-    margin-right: 2%;
-    background-color: rgb(201, 198, 198);
-    padding-left: 7.5%;
+    width: 19.5%;
+    float: left;
+    background-color: gray;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 35px;
+    vertical-align: center;
+}
+
+ul#lastlist li a {
+    text-decoration: none;
+    color: white;
+    font-size: .85em;
+
+}
+
+ul#lastlist2 li {
+    display: block;
+    width: 19.5%;
+    float: left;
+    background-color: gray;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 35px;
+    vertical-align: center;
+
+}
+
+ul#lastlist2 li a {
+    text-decoration: none;
+    color: white;
+    font-size: .85em;
+}
+
+h2 {
+    text-align: center;
 }
