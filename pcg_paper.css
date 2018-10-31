@@ -1,13 +1,22 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 3
    Case Problem 4
 
    Park City Gazette Style Sheet
-   Author: 
-   Date:   
+   Author: Brenden Riley
+   Date:   10.24.18
 
    Filename:         pcg_paper.css
    Supporting Files: 
@@ -44,6 +53,8 @@ nav[id^="nav"] {
     width: 85%;
     height: 20%;
     display: block;
+    font-family: 'Cuprum', sans-serif;
+
 }
 
 nav#nav1 {
@@ -134,9 +145,13 @@ footer li {
 /* the headers are centered horizontally, and have modified margins so that the last navigation has the correct spacing */
 h1 {
     text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .3em;
 }
 
 h2 {
+    font-family: 'Arimo', sans-serif;
+
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -179,6 +194,8 @@ article[id^="story"] {
     float: left;
     overflow: auto;
     background-color: ivory;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
 }
 
 article#story1 {
@@ -212,12 +229,12 @@ article#story4 {
 }
 
 /* last navigation styles */
+/* The last nav, which has variuos IDs depending on the sections they are in. It has a blue background, will always be set to the bottom(but above the footer). Each list within the last section is on its own line. The general same code for the first nav is used for the bottom nav. Each list has its own width per item, because the different sizes scale better. */
 section#lastsection {
     background-color: rgb(44, 137, 212);
     height: 140px;
     clear: both;
     border: 1px solid black;
-
 }
 
 ul#lastlist {
@@ -240,6 +257,8 @@ ul[id^="lastlist"] li {
     border-bottom: 1px solid black;
     text-align: center;
     height: 35px;
+    font-family: 'Cuprum', sans-serif;
+
 }
 
 ul[id^="lastlist"] li a {

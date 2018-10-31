@@ -11,16 +11,20 @@
     Author: Brenden Riley
     Date:   10.24.18
 
-    Filename: pcg_front.html
+    Filename: index.html
    -->
-    <link rel="stylesheet" href="pcg_paper.css">
-    <meta charset="utf-8" />
+    <link rel="stylesheet" href="pcg_paper.css" />
+    <meta name="keywords" content="news, pcg, park, city, gazette" />
+    <meta charset=" utf-8" />
+    <title>Park City Gazette</title>
 </head>
 
 <body>
     <header>
         <img id="logo" src="pcglogo.jpg" alt="Logo">
     </header>
+
+    <!-- the links are in different navs so that the css will affect them differently, each has a '#' so they don't go to anything -->
     <section id="sec1">
         <nav id="nav1">
             <a href="#">Home Page</a>
@@ -53,6 +57,7 @@
         <li> <a href="#">Contact Us</a> </li>
     </aside>
     <h1>Main Articles</h1>
+    <!-- The articles are inside the larger section so that they can all be affected, without needing to apply the CSS to each story. Story 1 includes an image, which is affected by extra CSS -->
     <section id=midsec>
         <article id="story1">
             <h2> Local Woman Wins Marathon</h2>
@@ -130,6 +135,7 @@
             In case of an attack, stay on your feet and fight back aggressively.
         </article>
     </section>
+    <!-- This section follos to same logic as the first one, with different lists for the different groups so that they go across the page and scale better -->
     <section id=lastsection>
         <h2>Other Stories</h2>
         <ul id=lastlist>
@@ -147,6 +153,7 @@
             <li><a href="#">Park City Profile</a> </li>
         </ul>
     </section>
+    <!-- The footer is fairly basic, inluding only the adress and telephone, with some charset circles in between them. -->
     <footer>
         <li> Park City Gazette</li>&#8226;
         <li>801 Elkhart Avenue</li>&#8226;
